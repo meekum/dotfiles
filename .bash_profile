@@ -51,10 +51,6 @@ if [ -f $brew_prefix/etc/bash_completion ]; then
   . $brew_prefix/etc/bash_completion
 fi
 
-# Use nvm.
-export NVM_DIR="$HOME/.nvm"
-. "$brew_prefix/opt/nvm/nvm.sh"
-
 # Disable cowsay in Ansible.
 export ANSIBLE_NOCOWS=1
 
